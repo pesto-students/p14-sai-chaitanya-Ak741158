@@ -1,0 +1,47 @@
+img{
+    margin: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+h1{
+    padding: 5px;
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+    background-color: red;
+    width: 700px;
+}
+
+#author-name-and-date{
+    font-family: Arial;
+    font-size: 12px;
+    color: lightgray;
+}
+
+#news{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: gray;
+    display: block;
+    width: 700px;
+}
+
+ol{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: gray;
+    display: block;
+    width: 700px;
+}
+
+footer{
+    font-family: Arial;
+    font-size: 12px;
+    color: gray;
+}
+
+a{
+    color: blue;
+}

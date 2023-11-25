@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line-Up's</title>
+</head>
+<body>
+    <h1>Starting Lineup</h1>
+    <p>
+        <fieldset>
+            <legend>Status:</legend>
+            <input type="radio" name="status[]" />
+            <label for="Draft">Draft</label>
+            
+            <input type="radio" name="status[]" checked/>
+            <label for="Final">Final</label>
+        </fieldset>
+    </p>
+    <p>
+        <label for="date">Date: </label>
+        <select name="gameDate">
+            <option value="Mar20">March 20</option>
+            <option value="Mar24">March 24</option>
+            <option value="Apr2">April 2</option>
+            <option value="Apr6">April 6</option>
+            <option value="Apr13">April 13</option>
+        </select>
+    </p>
+    <p>
+        <fieldset>
+            <legend>Players:</legend>
+            <div> <input type="checkbox" name="player" value="Aarav">
+            <label for="player">Aarav Agarwal</label></div>
+        
+            <div> <input type="checkbox" name="player" value="Ava">
+            <label for="player">Ava Johnson</label></div>
+
+            <div> <input type="checkbox" name="player" value="Julio">
+            <label for="player">Julio Ortiz</label></div>
+
+            <div> <input type="checkbox" name="player" value="Liam">
+            <label for="player">Liam Rubio</label></div>
+
+            <div> <input type="checkbox" name="player" value="Emma">
+            <label for="player">Emma Witherspoon</label></div>
+        </fieldset>
+    </p>
+    <p><input type="submit" value="Submit"></p>
+
+</body>
+</html>
