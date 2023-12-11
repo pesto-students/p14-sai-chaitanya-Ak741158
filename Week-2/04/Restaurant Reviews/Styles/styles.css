@@ -1,0 +1,26 @@
+nav {
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+main {
+
+    padding: 10px;
+}
+
+
+#navs {
+    margin-right: 10px;
+}
+
+#sec {
+    font-size: x-large;
+}
+
+.checked {
+    color: orange;
+}
+
+#form {
+    padding: 5px;
+}
